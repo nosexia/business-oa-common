@@ -1,0 +1,11 @@
+<div>
+    <div class="pull-left input-group">
+        <div class="input-group-btn">
+            <ul class="dropdown-menu ui-select-options" <%if (obj.minWidth){%>style="min-width: <%=obj.minWidth%>"<%}%>>
+            </ul>
+        </div>
+        <input class="form-control ui-select-input" type="text" <%if (obj.minWidth){%>style="min-width: <%=obj.minWidth%>"<%}%>>
+    </div>
+    <div class="pull-left ui-select-result-wrapper" style="margin-left: 10px;">
+    </div>
+</div>

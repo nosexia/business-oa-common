@@ -1,0 +1,108 @@
+/* index.css for http://oss.oa.com/ad/splash-modify */
+.ui-upload-default *{
+    /* 统一盒模型 */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ui-upload-default{
+    position:relative;
+    font-size: 12px;
+}
+.upld-demo{
+    width:118px;
+    height:161px;
+    background: #d4d4d4;
+    padding-top:60px;
+    border:1px solid #C0C0C0;
+}
+.upld-demo p{
+    margin:0;
+    padding:0;
+    color:#fff;
+    text-align:center;
+    font-size:14px;
+    line-height:20px;
+}
+.ui-upload-default .upld-trigger-text{
+    margin-top:15px;
+    color:#5c90d2;
+    display:inline-block;
+}
+.ui-upload-default .upld-trigger{
+    height:14px;
+    width:24px;
+    position:absolute;
+    margin-top:15px;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor:pointer;
+}
+.upld-preview{
+    position:absolute;
+    top:0;
+}
+.ui-upload-default .upld-item{
+    width:120px;
+    height:163px;
+    float:left;
+}
+.ui-upload-default .upld-item img{
+    width:120px;
+    height:163px;
+}
+.ui-upload-default .upld-del-item{
+    color:#5c90d2;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+    left: 48px;
+}
+.ui-upload-default .upld-look-item{
+    color:#5c90d2;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+    left: 72px;
+}
+.upld-trigger-container{
+    width:24px;
+}
+.ui-upload-default .upld-process-container{
+    width:120px;
+    margin-top:5px;
+    border:#ADB9C1 1px solid;
+    height:10px;
+    display:none;
+}
+.ui-upload-default .upld-process {
+    background-color: #0E90D2;
+    height: 10px;
+    width: 0;
+}
+.upld-loading-container{
+    display: none;
+}
+/*
+.ui-upload-default .upld-loading-container{
+    width:120px;
+    margin-top:5px;
+    display:none;
+    height:16px;
+}
+.ui-upload-default .upld-loading{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    line-height:16px;
+    background:url(loading.gif) no-repeat;
+}
+.ui-upload-default .upld-loading-text{
+    color:#B6B6B6;
+    font-size:12px;
+    display:inline-block;
+    height:16px;
+    line-height:16px;
+    vertical-align:top;
+    padding-left:5px;
+}*/

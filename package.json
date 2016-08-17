@@ -1,0 +1,18 @@
+{
+  "name": "business-oa-common",
+  "version": "1.5.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.futunn.com/webpackage/business-oa-common.git"
+  },
+  "keywords": [
+    "OA"
+  ],
+  "author": "rick <rick@futunn.com>",
+  "license": "ISC"
+}
